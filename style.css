@@ -1,0 +1,185 @@
+*{
+    margin: 0%;
+    padding: 0%;
+  }
+
+.flex{
+    display:flex;
+    flex-wrap: wrap;
+
+}
+
+.headerportfolio{
+    background-color: #000000
+    
+   
+}
+.logo{
+    width: 100px;
+    margin-left: 10px;
+    margin-top: 20px;
+
+}
+
+.justify-around{
+    justify-content: space-around;
+  }
+
+header{
+    background-color: #B1B9B3;
+    color: white;
+    width: 100%;
+    
+  }
+
+header nav ul{
+    list-style-type: none;
+    font-size: 24px;
+    font-family: Brown sugar;
+}
+
+header nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+header nav li{
+    margin-top: 50px;
+    margin-right: 20px;
+}
+
+header nav a:hover{
+    color: #c3f5d1;
+}
+
+.p1{
+    margin-left: 40px;
+    margin-top: 10%;
+}
+
+.p2{
+    margin-left: 40%;
+    margin-top: 10%;
+text-align: left;
+
+}
+.between{
+    justify-content: space-between;
+
+}
+
+.dessus{
+    position: absolute;
+    z-index: 2;
+    top : 10%;
+    color:#fff;
+    font-family: Brown sugar;
+    font-size: 52px;
+    width: 100%;
+    
+  }
+
+h1{
+    font-size:32px; 
+    font-family: stolzl thin;
+    color: white;
+    text-align: right;
+    margin-right: 20px;
+    
+   
+}
+h2{
+    font-size: 56px;
+    font-family: Brown sugar;
+    color: white;
+    text-align: right;
+    margin-right: 20px;
+    margin-bottom: 20px;
+ 
+    
+}
+
+h3{
+    font-size: 80px;
+    font-family: Brown sugar;
+    color: white;
+    text-align:left ;
+    margin-left: 20px;
+}
+
+.baniere{
+    position: relative;
+   
+  }
+ 
+.background-video {
+  
+    width: 100vw;
+    object-fit: cover;
+    z-index: 0;
+  }
+
+  
+  button {
+    padding: 20px 50px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border: 0px;
+    background: transparent;
+    position: relative;
+    transition: all .2s;
+    overflow: hidden;
+    color: #fff;
+    border-radius: 30px;
+    box-shadow: 0px -0px 0px 0px rgba(143, 64, 248,.5), 0px 0px 0px 0px rgba(39, 200, 255,.5);
+    margin-left: 40px;
+  }
+
+  button::after {
+    content: '';
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: -50px;
+    left: -100px;
+    background-image: linear-gradient(225deg,#039e3e 0%, #005c2d 50%, #008b2a 100%);
+    z-index: -1;
+    transition: all .5s;
+  }
+
+  button:hover::after {
+    transform: rotate(150deg);
+  }
+  
+  button:hover {
+    transform: translate(0,-6px);
+    box-shadow: 10px -10px 25px 0px rgba(143, 64, 248, .25), -10px 10px 25px 0px rgba(39, 200, 255, .25);
+  }
+
+.instagram{
+    margin-left: 95%;
+    
+}
+
+.img{
+    width: 100%;
+height: 350px;
+object-fit: cover;
+margin-right: 10px;
+justify-content: center;
+}
+
+.large45{
+width: 45%;
+
+}
+.card{
+    width : 40%;
+    padding: 10px;
+   
+   
+  }
+
+
+
+
