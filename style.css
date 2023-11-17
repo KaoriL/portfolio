@@ -19,11 +19,11 @@
   background-color: #000;
 }
 .logo{
-    width: 100px;
-    margin-left: 10px;
-    margin-top: 20px;
-
+    width: 50%;
+    
 }
+
+
 
 .justify-around{
     justify-content: space-around;
@@ -36,20 +36,25 @@ header{
     
   }
 
+  header nav {
+    width: 50%;
+  }
 header nav ul{
     list-style-type: none;
-    font-size: 24px;
+    width: 100%;
     font-family: Brown sugar;
 }
 
 header nav ul li a{
     color: white;
     text-decoration: none;
+   font-size: 150%;
 }
 
 header nav li{
-    margin-top: 50px;
-    margin-right: 20px;
+  
+    margin-top:5%;
+    padding-right: 5%;
 }
 
 header nav a:hover{
@@ -66,15 +71,28 @@ header nav a:hover{
 }
 
 .p1{
-    margin-left: 40px;
+    margin-left: 5%;
     margin-top: 10%;
 }
 
 .p2{
-    margin-left: 40%;
-    margin-top: 10%;
+    margin-left: 50%;
+    margin-top: 15%;
 text-align: left;
+background: rgba(255, 255, 255, .3);
+
+padding: 2%;
+height: 100%;
+border-radius: 0.5%;
+border-left: 1px solid rgba(255, 255, 255, .3);
+border-top: 1px solid rgba(255, 255, 255, .3);
+backdrop-filter: blur(10px);
+-webkit-backdrop-filter: blur(10px);
+-moz-backdrop-filter: blur(10px);
+box-shadow: 20px 20px 40px -6px rgba(0, 0, 0, .2);
+
 }
+
 
 .p3{
   margin-left: 60%;
@@ -104,6 +122,7 @@ form {
   -moz-backdrop-filter: blur(10px);
   box-shadow: 20px 20px 40px -6px rgba(0, 0, 0, .2);
   text-align: center;
+  margin-left: 40%;
 }
 
 .contact {
@@ -112,6 +131,7 @@ form {
   opacity: .7;
   font-size: 1.4rem;
   margin-bottom: 60px;
+  margin-left: 40%;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
 }
   
@@ -137,7 +157,7 @@ input {
   -webkit-backdrop-filter: blur(5px);
   -moz-backdrop-filter: blur(5px);
   box-shadow: 4px 4px 60px rgba(0, 0, 0, .2);
-  color: white;
+  color: black;
   font-weight: 500;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
   transition: all .3s;
@@ -149,6 +169,7 @@ input[type="email"]:focus,
 input[type="password"]:focus{
   background: rgba(255,255,255,0.1);
   box-shadow: 4px 4px 60px 8px rgba(0,0,0,0.2);
+  
 }
     
 input[type="button"] {
@@ -159,7 +180,7 @@ input[type="button"] {
 }
 
 ::placeholder {
-  color: #fff;
+  color: black;
 }
 .drop {
   background: rgba(255, 255, 255, .3);
@@ -233,39 +254,39 @@ margin-top: 10%;
     top : 10%;
     color:#fff;
     font-family: Brown sugar;
-    font-size: 52px;
+    font-size: 313%;
     width: 100%;
     
   }
 
 h1{
-    font-size:32px; 
+   font-size: 100%;
     font-family: stolzl thin;
     color: white;
     text-align: right;
-    margin-right: 20px;
+    margin-right: 5%;
     
    
 }
 
 
 h2{
-    font-size: 56px;
+    font-size: 100%;
     font-family: Brown sugar;
     color: white;
     text-align: right;
-    margin-right: 20px;
-    margin-bottom: 20px;
+    margin-right: 5%;
+    margin-bottom: 5%;
  
     
 }
 
 h3{
-    font-size: 80px;
+    font-size: 200%;
     font-family: Brown sugar;
     color: white;
     text-align:left ;
-    margin-left: 20px;
+    margin-left: 5%;
     
 }
 
@@ -294,7 +315,7 @@ h3{
   
   button {
     padding: 20px 50px;
-    font-size: 1.5rem;
+    font-size: 50%;
     cursor: pointer;
     border: 0px;
     background: transparent;
@@ -612,7 +633,7 @@ html {
 
 .bouton-retour{
   text-align: right;
-  font-size: 20px;
+  font-size: 125%;
   font-family: Brown sugar;
   text-decoration: none;
   color: white;
@@ -625,4 +646,8 @@ html {
   text-decoration: none;
   color: white;
 
+}
+
+.taille-div-45{
+  width: 45%;
 }
