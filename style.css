@@ -492,7 +492,32 @@ h5{
   .figcaption{
     
   position:absolute;
-  transition: transform .4s .4s;
+  trsor: pointer;
+  margin: 0 .5rem 0;
+    
+  }
+    
+  .miniatures img{
+    
+  background-color: #fafafa;
+  object-fit: cover;
+  display:block;
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
+  border: 2px solid white	
+    }
+    
+  @supports not (aspect-ratio:1)	{
+      
+  .miniatures {height:30px}	
+      
+    }
+    
+  .miniatures:hover {
+    transform: scale(1);
+   
+  }ransition: transform .4s .4s;
   will-change: transform;
   transform:translate3d(0,-100%,0);
   background-color:rgba(0, 0, 0, 0.4);
@@ -570,31 +595,6 @@ h5{
   width: 60px;
   border-radius: 9999px;
   z-index: 2;
-  cursor: pointer;
-  margin: 0 .5rem 0;
-    
-  }
-    
-  .miniatures img{
-    
-  background-color: #fafafa;
-  object-fit: cover;
-  display:block;
-  width: 100%;
-  height: 100%;
-  border-radius: inherit;
-  border: 2px solid white	
-    }
-    
-  @supports not (aspect-ratio:1)	{
-      
-  .miniatures {height:30px}	
-      
-    }
-    
-  .miniatures:hover {
-    transform: scale(1);
-   
   }
   
   body{
